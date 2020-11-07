@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw #run "pip install pillow in cmd"
 
-MAX_ITER = 80
+MAX_ITER = 80 #increase this to increase the detail 
 
 def mandelbrot(c):
     z = 0
