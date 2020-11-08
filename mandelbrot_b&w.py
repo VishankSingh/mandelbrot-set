@@ -12,11 +12,11 @@ def mandelbrot(c):
 
 
 # Image size (pixels)
-WIDTH = 600
+WIDTH = 800
 HEIGHT = 400
 
 # Plot window
-RE_START = -2
+RE_START = -3
 RE_END = 1
 IM_START = -1
 IM_END = 1
@@ -38,4 +38,4 @@ for x in range(0, WIDTH):
         # Plot the point
         draw.point([x, y], (color, color, color))
 
-im.save('b/w_output.png', 'PNG')
+im.save('output.png', 'PNG')
