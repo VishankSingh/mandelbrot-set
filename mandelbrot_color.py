@@ -37,4 +37,4 @@ for x in range(0, WIDTH):
         # Plot the point
         draw.point([x, y], (hue, saturation, value))
 
-im.convert('RGB').save('rgb_output.png', 'PNG')
+im.convert('RGB').save('output.png', 'PNG')
