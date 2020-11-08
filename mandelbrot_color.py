@@ -15,7 +15,7 @@ WIDTH = 600
 HEIGHT = 400
 
 # Plot window
-RE_START = -2
+RE_START = -3
 RE_END = 1
 IM_START = -1
 IM_END = 1
