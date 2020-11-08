@@ -11,7 +11,7 @@ def mandelbrot(c):
     return n
 
 # Image size (pixels)
-WIDTH = 600
+WIDTH = 800
 HEIGHT = 400
 
 # Plot window
