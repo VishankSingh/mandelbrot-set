@@ -1,4 +1,4 @@
-from PIL import Image, ImageDraw #run "pip install pillow in cmd"
+from PIL import Image, ImageDraw #run "pip install pillow" in cmd
 
 MAX_ITER = 160 #increase this to increase the detail 
 
